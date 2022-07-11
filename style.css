@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    width:100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    display: flex;
+}
+#logo img
+{
+    height: 70px;
+    width: 150px;
+    margin-left: 100px;
+}
+nav
+{
+    display: flex;
+    /* text-align:end; */
+    margin-left: 600px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 80px;
+    transition: .5s;
+    
+}
+nav ul li a:hover
+{
+    background-color: gray;
+    color: black;
+}
+#span
+{
+    background-color: lightgray ;
+    color: red;
+    height: 100%;
+    width: 80%;
+}
+span{
+    margin-left: 20px;
+    background-color: red;
+    height:100%;
+    width: 30px;
+    text-align: center;
+    color: white;
+    
+}
+.content
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+h4
+{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.subclas
+{
+    /* background-color: red; */
+    height: 80%;
+}
+section
+{
+    margin-top: 30px;
+    overflow: hidden;
+    position: absolute;
+}
+#sec
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#sec .box
+{
+    width: 30%;
+    height: 500px;
+    color: gray;
+    border: 1px solid black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px;
+}
+.box img
+{
+    height: 50%;
+    width: 100%;
+}
+h6{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+hr{
+    margin-left: 10px;
+    color: red;
+    width: 10%;
+}
+p
+{
+    text-align: left;
+    /* font-weight: bold; */
+    color: black;
+    padding: 10px 10px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+
+  .arrow-right {
+    width: 0;
+      height: 0;
+      border-bottom: 100px solid red;
+      border-left: 100px solid transparent;
+      text-align: center;
+      display: flex;
+  }
+  .button
+  {
+    color: white;
+    margin-left: 83%;
+    text-align: center;
+  }
+  
+  footer
+  {
+    /* background-color: red; */
+    display: flex;
+    padding: 25px 50px ;
+    justify-content: space-evenly;
+    border-top: 2px solid gray;
+  }
